@@ -1,5 +1,5 @@
 {
-    "name": "node-disabled",
+    "name": "disabled-rules",
     "version": "0.1.0",
     "description": "Just checking for the disabling of eslint",
     "main": "src/index.js",
@@ -11,14 +11,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+ssh://git@github.com/BinaryBeard/node-disabled.git"
+        "url": "git+ssh://git@github.com/BinaryBeard/disabled-rules.git"
     },
     "author": "Sam Bantner (https://github.com/BinaryBeard)",
     "license": "SEE LICENSE IN LICENSE.txt",
     "bugs": {
-        "url": "https://github.com/BinaryBeard/node-disabled/issues"
+        "url": "https://github.com/BinaryBeard/disabled-rules/issues"
     },
-    "homepage": "https://github.com/BinaryBeard/node-disabled#readme",
+    "homepage": "https://github.com/BinaryBeard/disabled-rules#readme",
     "dependencies": {
         "chalk": "^2.4.1"
     },
