@@ -17,7 +17,7 @@ $ disabled lib/ test/   # will search only in lib and test
 
 For example, if a file contained these lines somewhere in it...
 
-```bash
+```javascript
 /* eslint-disable */
 // eslint-disable other-stuff
 // eslint-disable-line sams-code
