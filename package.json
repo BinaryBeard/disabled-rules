@@ -25,5 +25,18 @@
     "devDependencies": {
         "eslint": "^5.0.1",
         "eslint-config-brewboy": "^1.0.2"
-    }
+    },
+    "keywords": [
+        "eslint",
+        "disabled",
+        "disable",
+        "eslint-disable",
+        "eslint-disable-line",
+        "eslint-disable-next-line",
+        "eslint-enable",
+        "tool",
+        "linting",
+        "reporting",
+        "testing"
+    ]
 }
