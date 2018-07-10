@@ -1,0 +1,29 @@
+{
+    "name": "node-disabled",
+    "version": "0.1.0",
+    "description": "Just checking for the disabling of eslint",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "eslint src/ && true"
+    },
+    "bin": {
+        "disabled": "./bin/disabled"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/BinaryBeard/node-disabled.git"
+    },
+    "author": "Sam Bantner (https://github.com/BinaryBeard)",
+    "license": "SEE LICENSE IN LICENSE.txt",
+    "bugs": {
+        "url": "https://github.com/BinaryBeard/node-disabled/issues"
+    },
+    "homepage": "https://github.com/BinaryBeard/node-disabled#readme",
+    "dependencies": {
+        "chalk": "^2.4.1"
+    },
+    "devDependencies": {
+        "eslint": "^5.0.1",
+        "eslint-config-brewboy": "^1.0.2"
+    }
+}

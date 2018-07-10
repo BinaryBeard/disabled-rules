@@ -1,0 +1,29 @@
+#!/usr/bin/env node
+
+const fs = require('fs')
+const path = require('path')
+const Disabled = require('../src/index')
+const argv = process.argv.slice(2, process.argv.length)
+const cwd = process.cwd()
+const rc = path.join(cwd, '.disabledrc')
+
+function main() {
+    if (0 !== argv.length) {
+        return argv.forEach((arg) => {
+            new Disabled(arg).run()
+        })
+    }
+
+    if (!fs.existsSync(rc)) {
+        return new Disabled(cwd).run()
+    }
+
+    const directories = fs.readFileSync(rc, 'utf8')
+        .trim()
+        .split(/\s+/)
+    directories.forEach((directory) => {
+        new Disabled(directory).run()
+    })
+}
+
+main()
