@@ -89,8 +89,8 @@ function buildFileStructure(dir, callback) {
 }
 
 /* eslint-disable */
-// eslint-disable other-shit
-// eslint-disable-line jims-code
+// eslint-disable other-stuff
+// eslint-disable-line sams-code
 // eslint-disable-next-line crazy-stuff, more-crazy-stuff
 /* eslint-enable */
 
