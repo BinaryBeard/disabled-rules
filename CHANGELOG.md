@@ -10,5 +10,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 - Project created
 
-[Unreleased]: https://github.com/binarybeard/lambda/compare/v2.0.1...HEAD
-[0.1.1]: https://github.com/ableat/lambda/compare/v0.1.0...v0.1.1
+[Unreleased]: https://github.com/BinaryBeard/disabled-rules/compare/v0.1.0...HEAD
+[0.1.1]: https://github.com/BinaryBeard/disabled-rules/compare/v0.1.0...v0.1.1
